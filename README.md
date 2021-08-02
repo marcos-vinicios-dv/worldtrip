@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## worldtrip
 
-## Getting Started
+<p>Trata-se de um desafio proporcionado no curso Ignite - ReactJS, onde deveria ser criado a interface de um site para uma agência de viagens com Chakra-UI completamente do zero./p>
 
-First, run the development server:
+### Imagem da aplicação:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Home
+<img width="100%" src="https://ik.imagekit.io/wgluqxvtial/Captura_de_tela_de_2021-08-02_18-02-10_DyvtPTYHo.png?updatedAt=1627939866249" alt="Página Pricipal"></img>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Continet
+<img width="100%" src="https://ik.imagekit.io/wgluqxvtial/Captura_de_tela_de_2021-08-02_17-49-02_h-5wE_1ic8t.png?updatedAt=1627939861141" alt="Página do continente"></img>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Tecnologias utilizadas:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<b>Linguagem</b>
+- Typescript(Next).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br>
 
-## Learn More
+<b>Bibliotecas</b>
+- <a href="https://axios-http.com/docs/intro" >axios</a> (requisições a api);
+- <a href="https://swiperjs.com/get-started" >swiper</a> (Carousel);
+- <a href="https://github.com/typicode/json-server" >json-server</a> (fake API);
+- <a href="https://sass-lang.com/" >sass</a> (estilização carousel);
+- <a href="https://chakra-ui.com/" >chakra-ui</a> (estilização da aplicação);
+- <a href="https://emotion.sh/docs/introduction" >emotion</a> (dependência do chakra);
+- <a href="https://www.framer.com/motion/" >framer-motion</a> (dependência do chakra);
 
-To learn more about Next.js, take a look at the following resources:
+## Inicializar projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p>Para inicializar esse projeto em sua máquina será necessário usar os seguinte comandos(como o node instalado):</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Iniciar Back-end (na pasta raiz do projeto + json-server intalado como dependência global) 
 
-## Deploy on Vercel
+    Instalar json-server como global
+    ```npm install -g json-server```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Iniciar server localmente
+    ```json-server server.json -p 3333```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Iniciar Front-end(com o server ativo)
+
+    Instalar dependências 
+    ```npm install```
+
+    Inicializar aplicação localmente
+    ```npm run dev```
